@@ -1,45 +1,54 @@
-# DiscordBOT-MVPList- Version 1.1.0
-Version 1.0.0
+# DiscordBOT-MVPList - Version 1.1.0
 
-- Bot which you can list and edit time of death of Ragnarok MVPs.
+A Discord bot for managing the list and time of death of Ragnarok Online MVPs. This bot supports full CRUD operations using Sequelize and features a countdown timer.
 
+---
 
+## 🆕 Version Updates
 
+### Version 1.0.0
+- Basic MVP list functionality.
+- Allows listing and editing the time of death for Ragnarok MVPs.
 
-Version 1.1.0
+### Version 1.1.0
+- Integrated a database with complete CRUD operations using Sequelize.
+- Added a countdown timer feature.
 
-- Added database and now with complete CRUD operations using Sequelize.
+---
 
-- Added Countdown timer.
+## 💬 List of Commands
 
+| Command                                 | Description                                                     |
+|-----------------------------------------|-----------------------------------------------------------------|
+| `!bhlistall`                            | Shows every MVP's time of death.                                 |
+| `!bhlist [MVP Name]`                     | Prints the specified MVP's time of death.                        |
+| `!bhadd [MVP Name] [Time of Death]`       | Adds the specified MVP's info to the database.                   |
+| `!bhedit [MVP Name] [Time of Death]`      | Updates the specified MVP's time of death in the database.        |
+| `!bhdelete [MVP Name]`                    | Deletes the specified MVP's info from the database.               |
+| `!bhtimer [# of minutes]`                 | Starts a countdown timer for the specified number of minutes.     |
 
+---
 
+## 🚀 Getting Started
 
-List of commands;
+To start the bot in your Discord channel/server:
 
-- !bhlistall -	Shows every MVP's time of deaths
+1. Open Command Prompt.
+2. Change the directory to where the `index.js` file is located.  
+   Example:  
 
-- !bhlist [MVP Name] -	Prints only specific MVP's time of death
+cd Desktop\mvp_list
 
-- !bhadd [MVP Name] [Time of Death] -	Adds MVP's info to the database
+3. Once in the desired folder, type the following command and press Enter:  
 
-- !bhedit [MVP Name] [Time of Death] -	Updates MVP's time of death
+npm run start
 
-- !bhdelete [MVP Name] -	Deletes a specific MVP's info in the database
+4. Wait for the message "Starting MVP List Discord Bot..." to appear in the console.
 
-- !bhtimer [# of minutes]
+---
 
+## ⚠️ Disclaimer
 
+This bot may not function correctly when moved to a different system, as Discord changes the token for security reasons.
 
-To start the bot in your discord channel/server.
-
-- Open command prompt
-- Change directory to where the index.js file is. 
-  Ex. cd Desktop\mvp_list
-- If you're in the desired folder, type 'npm run start' and wait for the "Starting MVP List Discord Bot..." to show in your cmd.
-
-
-Disclaimer:
-
-This will not work since Discord will change the token when it goes to a different system. 
-Discord does this for security reasons.
+Just copy and paste this whole block into your README.md file. Let me know if you need more changes or additions! 😄
