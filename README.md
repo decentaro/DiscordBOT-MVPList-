@@ -50,5 +50,3 @@ npm run start
 ## ⚠️ Disclaimer
 
 This bot may not function correctly when moved to a different system, as Discord changes the token for security reasons.
-
-Just copy and paste this whole block into your README.md file. Let me know if you need more changes or additions! 😄
