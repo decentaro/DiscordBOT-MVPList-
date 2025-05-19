@@ -4,7 +4,7 @@ A Discord bot for managing the list and time of death of Ragnarok Online MVPs. T
 
 ---
 
-## 🆕 Version Updates
+## Version Updates
 
 ### Version 1.0.0
 - Basic MVP list functionality.
@@ -16,7 +16,7 @@ A Discord bot for managing the list and time of death of Ragnarok Online MVPs. T
 
 ---
 
-## 💬 List of Commands
+## List of Commands
 
 | Command                                 | Description                                                     |
 |-----------------------------------------|-----------------------------------------------------------------|
@@ -29,7 +29,7 @@ A Discord bot for managing the list and time of death of Ragnarok Online MVPs. T
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To start the bot in your Discord channel/server:
 
@@ -47,6 +47,6 @@ npm run start
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This bot may not function correctly when moved to a different system, as Discord changes the token for security reasons.
